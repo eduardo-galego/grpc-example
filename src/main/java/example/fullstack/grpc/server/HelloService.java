@@ -1,8 +1,8 @@
-package fiap.scj.grpc.server;
+package example.fullstack.grpc.server;
 
-import fiap.scj.grpc.HelloRequest;
-import fiap.scj.grpc.HelloResponse;
-import fiap.scj.grpc.HelloServiceGrpc;
+import example.fullstack.grpc.HelloRequest;
+import example.fullstack.grpc.HelloResponse;
+import example.fullstack.grpc.HelloServiceGrpc;
 import io.grpc.stub.StreamObserver;
 
 public class HelloService extends HelloServiceGrpc.HelloServiceImplBase {

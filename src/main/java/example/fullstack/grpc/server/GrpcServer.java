@@ -1,4 +1,4 @@
-package fiap.scj.grpc.server;
+package example.fullstack.grpc.server;
 
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
